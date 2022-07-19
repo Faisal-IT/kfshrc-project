@@ -1,5 +1,4 @@
 
-
     var list1=[];
     var list2=[];
     var list3=[];
@@ -31,18 +30,5 @@
 
         n++;
         x++;
-
-
-            
-            // var result1 = Text1;
-            // var result2 = Text2;
-            // var result3 = Text3;
-            // var result4 = Text4;
-           
-            // document.getElementById('SResult1').textContent = result1;
-            // document.getElementById('SResult2').textContent = result2;
-            // document.getElementById('SResult3').textContent = result3;
-            // document.getElementById('SResult4').textContent = result4;
-           
              
         }
