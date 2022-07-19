@@ -5,19 +5,15 @@
 }
 
 
-/* .navbar{
+.navbar{
     
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 300px;
+    padding-left: 200px;
     padding-bottom: 30px;
     
-} */
-
-.icon{
-    padding-left: 150px;
 }
 
 
@@ -36,12 +32,13 @@ body{
 
 .main{
     max-width: 700px;
+    max-height: 10000px;
     width: 100%;
     height: auto;
     background-color: #ffffff;
     padding: 50px;
     border-radius: 10px;
-    padding-top: 150px;
+    
     
 }
 
