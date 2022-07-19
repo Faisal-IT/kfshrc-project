@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* .navbar{
+    
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 300px;
+    padding-bottom: 30px;
+    
+} */
+
+.icon{
+    padding-left: 150px;
+}
+
+
+body{
+   display: flex;
+   height: 100vh;
+   justify-content: center;
+   align-items: center; 
+   padding: 20px;
+   background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(images/45974d95-95df-4d9d-989f-00a85ed20043.jpg); 
+   background-size: cover;
+   background-position: center;
+   
+   
+}
+
+.main{
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+    padding-top: 150px;
+    
+}
+
+.main .Rform{
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    
+}
+
+.main .Rform::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: #00ca11;
+}
+
+ .info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+.info .box{
+    width:calc(100% / 2 - 35px);
+    font-size: 18px;
+    margin-bottom: 15px; 
+}
+
+
+.info .box .name{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.info .box input{
+    
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(197, 197, 197);
+    padding-left: 15px;
+    font-size: 14px;
+    border-bottom-width: 3px;
+    transition: all 0.3s ease;
+}
+
+.info .box input:focus,
+.info .box input:valid{
+    border-color: rgb(71, 172, 57);
+}
+
+
+ .gender-box .name{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+ .gender-box{
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+
+ input[type="radio"]{
+    display: none;
+    
+}
+
+ label{
+    position: relative;
+    font-size: 15px;
+    
+}
+
+ label::before{
+    
+    content: "";
+    border: 2px solid #d1d1d1;
+    border-radius: 50%;
+    padding-left: 12px;
+    margin-right: 5px;
+    margin-left: 10px;
+    font-size: 10px;
+    
+    
+}
+
+ input[type="radio"]:checked + label::before{
+    background-color: #00a108;
+    
+}
+
+
+ #button {
+    height: 40px;
+    margin: 45px;
+    
+}
+
+ #button input{
+    height: 100%;
+    width: 80%;
+    margin-left: 55px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background: #82ee82;
+    
+}
+
+
+ #button input:hover{
+    background: #2db934;
+
+}
+
+
+@media (max-width: 585px) {
+    .main{
+        max-width: 100%;
+    }
+     .info .box{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+}
+
+
+#SResult1{
+    padding-left: 10px;
+}
+
+#SResult2{
+    padding-left: 10px;
+}
+
+#SResult3{
+    padding-left: 10px;
+}
+
+#SResult4{
+    padding-left: 10px;
+}
+
+
+
+table{
+    border-collapse: collapse;
+    width: 70%;
+    margin: 20px auto;
+    /* border: 1px solid black; */
+
+}
+ 
+th{
+    font-size: 17px;
+    font-weight: 700;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+td{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+    border: 1px solid black;
+}
+
