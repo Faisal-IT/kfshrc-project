@@ -15,55 +15,7 @@
 
 <body>
     
-    <script type="text/javascript">
-        
-            var list1=[];
-            var list2=[];
-            var list3=[];
-            var list4=[];
-
-            var n = 1;
-            var x = 0;
-
-
-        function test() {
-
-            var AddRown = document.getElementById('details');
-            var NewRow = AddRown.insertRow(n);
-
-            list1[x] = document.getElementById("fname").value;          
-            list2[x] = document.getElementById("lname").value;
-            list3[x] = document.getElementById("email").value;
-            list4[x] = document.getElementById("phone").value;
-
-            var cel1 = NewRow.insertCell(0);
-            var cel2 = NewRow.insertCell(1);
-            var cel3 = NewRow.insertCell(2);
-            var cel4 = NewRow.insertCell(3);
-
-            cel1.innerHTML = list1[x];
-            cel2.innerHTML = list2[x];
-            cel3.innerHTML = list3[x];
-            cel4.innerHTML = list4[x];
-
-            n++;
-            x++;
-
-
-            
-            // var result1 = Text1;
-            // var result2 = Text2;
-            // var result3 = Text3;
-            // var result4 = Text4;
-           
-            // document.getElementById('SResult1').textContent = result1;
-            // document.getElementById('SResult2').textContent = result2;
-            // document.getElementById('SResult3').textContent = result3;
-            // document.getElementById('SResult4').textContent = result4;
-           
-             
-        }
-    </script>    
+    <script src="script.js"></script>    
 
 
     <div class="main">
@@ -168,20 +120,17 @@
         
             </div>
 
-            <!-- First Name :<span id="SResult1" ></span><br>
-            Last Name :<span id="SResult2"></span><br>
-            Email :<span id="SResult3"></span><br>
-            phone Number:<span id="SResult4"></span> -->
-
 
             <div>
                 <table id="details">
-                    <tr>
-                        <th>First Name</th>
-                        <th>Last Name</th>
-                        <th>Email</th>
-                        <th>Date of Birth</th>
-                    </tr>
+                    
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Email</th>
+                            <th>Phone Number</th>
+                        </tr>
+                    
                 </table>
                 
             </div>
